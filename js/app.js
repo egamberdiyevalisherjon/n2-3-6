@@ -53,3 +53,35 @@ let fruits = ["Apple", "Lime", "Banana", "Cherry", "Strawberry", "Water melon"];
 // fruits.splice(0, 1); // shift
 
 // console.log(fruits);
+
+// Date
+let hozir = Date.now();
+let ertaga = new Date("2023-10-26T06:00:00");
+let day = new Date(2001, 6, 17).getTime();
+console.log(hozir - day);
+
+// console.log(hozir.getDate());
+// console.log(hozir.getFullYear());
+// console.log(hozir.getDay());
+// console.log(hozir.getHours());
+// console.log(hozir.getMinutes());
+// console.log(hozir.getSeconds());
+// console.log(hozir.getMilliseconds());
+// console.log(hozir.getMonth());
+// console.log(hozir.getTime() / 1000 / 60 / 60 / 24 / 365.25);
+// console.log(hozir.getTimezoneOffset());
+// console.log(hozir.getUTCHours());
+// console.log(hozir.getUTCFullYear());
+
+// HOMEWORK
+// 1) Ism va tugilgan kun sorab
+// Hurmatli {Ism}, siz {yil}yil {oy}oy {kun}kun {soat}soat yashabsiz
+// Namuna: 
+// 10 yil, 8oy, 22kun ✅
+// 10 yil, 128oy, 3862kun ❌
+
+// 2) console ga mevalar
+// meva oxiriga qoshish
+// console ga mevalar
+// mevalar boshidan bittasin ochirish
+// console ga mevalar
